@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe - Mergington High School</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="tictactoe.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Mergington High School</h1>
+      <h2>Tic Tac Toe</h2>
+    </header>
+
+    <main>
+      <section id="game-container">
+        <div id="status-message">Player X's turn</div>
+        <div id="board">
+          <button class="cell" data-index="0"></button>
+          <button class="cell" data-index="1"></button>
+          <button class="cell" data-index="2"></button>
+          <button class="cell" data-index="3"></button>
+          <button class="cell" data-index="4"></button>
+          <button class="cell" data-index="5"></button>
+          <button class="cell" data-index="6"></button>
+          <button class="cell" data-index="7"></button>
+          <button class="cell" data-index="8"></button>
+        </div>
+        <button id="reset-btn">New Game</button>
+        <div id="score-board">
+          <span>X Wins: <strong id="x-score">0</strong></span>
+          <span>Draws: <strong id="draw-score">0</strong></span>
+          <span>O Wins: <strong id="o-score">0</strong></span>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p><a href="/static/index.html">&larr; Back to Activities</a></p>
+      <p>&copy; 2023 Mergington High School</p>
+    </footer>
+
+    <script src="tictactoe.js"></script>
+  </body>
+</html>
